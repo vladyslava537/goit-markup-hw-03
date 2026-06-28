@@ -1,0 +1,22 @@
+.footer-logo{
+    color: #4D5AE5;
+}
+
+.footer-link{
+    font-weight: 700;
+    font-size: 18px;
+    
+    /* line-height: 24px; */
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.footer-disc{
+    color: #F4F4FD;
+}
