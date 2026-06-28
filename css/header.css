@@ -23,7 +23,8 @@
   color: #2e2f42;
 }
 
-.header-nav-link:hover {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: #404bbf;
 }
 
@@ -31,6 +32,7 @@
   color: #434455;
 }
 
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
