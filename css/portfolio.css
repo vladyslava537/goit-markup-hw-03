@@ -58,3 +58,7 @@
     gap: 10px;
    
 }
+
+.portfolio-item img {
+    display: block;
+}

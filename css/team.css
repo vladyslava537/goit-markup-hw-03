@@ -16,7 +16,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    
+    border-radius: 0 0 4px 4px;
 }
 
 .team-name{
@@ -34,6 +35,7 @@
 
 .team-contant{
     padding: 32px 16px;
+    gap: 8px;
 }
 
 .team-list{
@@ -46,4 +48,8 @@
     flex-direction: column;
     gap: 72px;
     padding: 0px 15px;
+}
+
+.team-people img {
+    display: block;
 }

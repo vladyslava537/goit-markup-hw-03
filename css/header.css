@@ -20,6 +20,8 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0px;
+
+  display: block;
 }
 
 .header-nav-link:hover {
@@ -47,11 +49,17 @@
 
 .header .container{
   display: flex;
-  justify-content: space-between; 
+  align-items: center;
 }
 
 .header{
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: #E7E9FC;
+  border-bottom: 1px solid #E7E9FC;
+}
+
+.header-nav{
+  margin-left: 76px;
+}
+
+.contact {
+    margin-left: auto;
 }
