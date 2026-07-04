@@ -6,7 +6,6 @@
     font-weight: 700;
     font-size: 18px;
     
-    /* line-height: 24px; */
     line-height: 1.33333;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -15,8 +14,21 @@
 
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0px;
 }
 
 .footer-disc{
     color: #F4F4FD;
+}
+
+.container-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 264px;
+    
+}
+
+.footer .container{
+    padding: 0px 15px;
 }

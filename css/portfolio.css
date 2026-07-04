@@ -2,7 +2,6 @@
     font-weight: 700;
     font-size: 36px;
     
-    /* line-height: 40px; */
     line-height: 1.11111;
     text-align: center;
     color: #2E2F42;
@@ -12,7 +11,6 @@
     font-weight: 500;
     font-size: 20px;
     
-    /* line-height: 24px; */
     line-height: 1.2;
     color: #2E2F42;
 }
@@ -21,7 +19,42 @@
     font-weight: 400;
     font-size: 16px;
     
-    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.card-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 16px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+}
+
+.portfolio-item{
+    width: 360px;
+    height: 420px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio .container{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 0px 15px;
+}
+
+.portfolio{
+    display: flex;
+    gap: 10px;
+   
 }

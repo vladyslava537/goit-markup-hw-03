@@ -1,15 +1,16 @@
 .hero{
     background-color: #2E2F42;
+    padding: 188px 0px;
 }
 
 .hero-title{
     font-weight: 700;
     font-size: 56px;
 
-    /* line-height: 60px; */
     line-height: 1.07143;
     text-align: center;
     color: #FFFFFF;
+    width: 496px;
 }
 
 .hero-btn{
@@ -19,12 +20,27 @@
     font-weight: 500;
     font-size: 16px;
     
-    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
+    padding: 16px 32px;
+    flex-grow: 0;
+    width: 169px;
+    display: block;
+    margin: 0 auto;
+    white-space: nowrap;
 }
 
 .hero-btn:hover{
     background-color: #404BBF;
+}
+
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 0px 15px;
+    justify-content: center;
+    align-items: center;
 }

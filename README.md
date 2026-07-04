@@ -1,2 +1,4 @@
-# goit-markup-hw-02
-GoIT HTML markup homework 02 - page layout with CSS styling
+GoIT Markup Homework 03
+
+HTML/CSS layout using box model and flexbox.
+Third homework assignment of the GoIT Full Stack course.

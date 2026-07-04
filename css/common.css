@@ -4,8 +4,7 @@ body{
     
     font-weight: 400;
     font-size: 16px;
-    
-    /* line-height: 24px; */
+
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -18,4 +17,37 @@ ul{
 a{
     text-decoration: none;
     font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.features-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+.section{
+    padding: 120px 0px;
 }

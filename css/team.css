@@ -2,7 +2,6 @@
     font-weight: 700;
     font-size: 36px;
     
-    /* line-height: 40px; */
     line-height: 1.11111;
     text-align: center;
     color: #2E2F42;
@@ -14,13 +13,16 @@
 
 .team-people{
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 
 .team-name{
     font-weight: 500;
     font-size: 20px;
     
-    /* line-height: 24px; */
     line-height: 1.2;
     text-align: center;
     color: #2E2F42;
@@ -28,4 +30,20 @@
 
 .team-disc{
     text-align: center;
+}
+
+.team-contant{
+    padding: 32px 16px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
+.team .container{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 0px 15px;
 }
