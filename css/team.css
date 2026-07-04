@@ -27,6 +27,7 @@
     line-height: 1.2;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .team-disc{
@@ -35,7 +36,6 @@
 
 .team-contant{
     padding: 32px 16px;
-    gap: 8px;
 }
 
 .team-list{
